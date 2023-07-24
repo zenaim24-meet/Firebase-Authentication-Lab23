@@ -6,5 +6,41 @@
 </head>
 <body>
     Great Job!
+    <form method="post" action="/add_tweet">
+        <!-- Heading -->
+        <h4>
+        add tweet
+        </h4>
+
+        <!-- Subheading -->
+        
+        
+        <div>
+            <label>title</label>
+            <div>
+                <input type="text"  name="ti"  required>
+            </div>
+        </div>
+
+        
+        <div>
+            <label>text</label>
+            <div class="input-group">
+                <input type="text"  name="text" maxlength="280">
+            </div>
+        </div>
+        
+        
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
+
+
+
+    <button  onclick="/signout">
+        sign out
+    </button>
 </body>
 </html>
